@@ -21,3 +21,8 @@ def sum13(nums):
                 continue
         fl.append(e)
     return sum(i for i in fl)
+
+# Two-Liner
+def sum13(nums):
+    nums.append(0)
+    return sum(e for i, e in enumerate(nums) if e != 13 and nums[i - 1] != 13)
