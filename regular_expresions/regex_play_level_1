@@ -1,3 +1,4 @@
+```
 We have to extract these numbers 12, 47, 48
 The integers numbers are also interesting: 189 2036 314
 "," is a separator, so please extract these numbers 125,789,1450 and also these 564,90456
@@ -28,6 +29,7 @@ Integers are fine but sometimes you like 99 cents after the 99 dollars
 I like to give you 1000 numbers now: 12 3 56 21 67, and more, [45,67,7]
 Ok ok  1 2 3 4 5 and the last one is 6
 33  trentini entrarono a Trento, tutti e 33 di tratto in tratto trotterellando
-
+```
+  
 Regex solution:
 (\d+)
